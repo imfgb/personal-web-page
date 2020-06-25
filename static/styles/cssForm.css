@@ -1,0 +1,147 @@
+input {
+  width: 200px;
+  border-radius: 20px;
+  color: #ff5c00;
+}
+
+#submitButton {
+  color: #ff5c00;
+}
+
+#subContact_Container {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#container {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#sendMessageContact {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 60px;
+  color: white;
+}
+
+#sendMessageSendMessage {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+#fontColor {
+  color: black;
+  display: flex;
+}
+
+.main-block {
+  font-style: italic;
+  font-family: tahoma sans-serif;
+  color: white;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-weight: 400;
+  color: #1c87c9;
+}
+
+p {
+  margin: 0 0 5px;
+  text-align: center;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1c87c9;
+}
+
+form {
+  padding: 25px;
+  box-shadow: 0 2px 20px #f5f5f5;
+  background: #f5f5f5;
+}
+
+.fas {
+  margin: 25px 10px 0;
+  font-size: 72px;
+  color: #fff;
+}
+
+.fa-envelope {
+  transform: rotate(-20deg);
+}
+
+.fa-at,
+.fa-mail-bulk {
+  transform: rotate(10deg);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 30px;
+  border: 1px solid #ff5c00;
+  outline: none;
+  border-radius: 20px;
+  resize: none;
+}
+
+input::placeholder {
+  color: #666;
+  font-size: 18px;
+}
+
+#buttonn {
+  padding: 10px;
+  border: none;
+  background: #eb6417;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+#buttonn:hover {
+  background: #8f3e0f;
+}
+
+@media (min-width: 1000px) {
+  .main-block {
+    flex-direction: row;
+  }
+
+  .left-part,
+  form {
+    width: 50%;
+    text-align: center;
+    padding-left: 25px;
+    margin: 30px auto auto;
+  }
+
+  .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+  }
+
+  .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+  }
+
+  .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+  }

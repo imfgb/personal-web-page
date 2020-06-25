@@ -1,0 +1,84 @@
+body {
+  background: url(https://i.ibb.co/s2SNttW/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  font-style: italic;
+  font-family: tahoma sans-serif;
+  color: white;
+}
+
+.formContainer {
+  margin: 0 auto;
+}
+
+#aboutButton {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.changeButtonGoBackColor {
+  background-color: rgba(36, 36, 36, 0.91);
+}
+
+.changeButtonGoBackColor:hover {
+  background-color: rgba(173, 62, 11, 0.91);
+}
+
+#text_subContact {
+  font-size: 77px;
+}
+
+.aboutJumbo {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.paypal-buttons {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.jumbotronContainer {
+  padding-top: 230px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 230px;
+}
+
+.jumbotron {
+  background-color: rgba(245, 140, 92, 0.67);
+}
+
+html, body {
+  height: 100rem;
+  width: 100%;
+}
+
+.fontSizeNavBar {
+  font-size: 15px;
+}
+
+.UlrichHomeButton {
+  font-size: 26px;
+}
+
+#content {
+  text-align: center;
+  padding-top: 15%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+hr {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

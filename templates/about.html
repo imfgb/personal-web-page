@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/ulrichPersonalWeb.css')}}">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand UlrichHomeButton" href="#">Ulrich</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+
+          <li class="fontSizeNavBar"><a href="/">Home</a></li>
+          <li class="active fontSizeNavBar"><a href="/about">About</a></li>
+          <li class="fontSizeNavBar"><a href="/contact">Contact</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="fontSizeNavBar"><a href="#">Sign Up</a></li>
+          <li class="fontSizeNavBar"><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container jumbotronContainer">
+    <div class="jumbotron">
+      <h1 class="display-4 aboutJumbo">About Ulrich!</h1>
+      <p class="lead">My name is Fernando, I love everything that deals with technology, especially Web Development,
+        this is my first basic web page made from scratch by me.</p>
+      <hr class="my-14">
+      <p>For the Frontend i used HTML, CSS, Bootstrap and for the Backend i used Flask (Python Web Framework) and Datastore
+        as my Database from Google Cloud Platform, this project was deployed to the Google App Engine with the newest Python 3.7 Runtime</p>
+    </div>
+  </div>
+</body>
+
+</html>
